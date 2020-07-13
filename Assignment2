@@ -1,0 +1,10 @@
+# letsUpgradeAssignment
+<!DOCTYPE html>
+<html>
+
+<body>
+    
+    <h2>Print this page</h2>
+    <button onclick="window.print()"></button>
+</body>
+</html>

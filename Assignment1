@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="day"></p>
+<p id="time"></p>
+<script>
+var d = new Date();
+var c = d.getDay();
+var hour = d.getHours();
+var hour1 = hour-12;
+var day;
+switch(c){
+    case 0:
+        day="Sunday";
+        break;
+    case 1:
+        day="Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day ="Wednesday";
+        break;
+    case 4:
+        day ="Thursday";
+        break;
+    case 5:
+        day ="Friday";
+        break;
+    case 6:
+        day ="Saturday";
+        break;
+}
+document.getElementById("day").innerHTML="Today is :"+ day;
+if(d.getHours>=0 && d.getHours<12){
+document.getElementById("time").innerHTML="Current Time is :"+ d.getHours() +"AM :"+d.getMinutes()+":"+d.getSeconds();
+}else{
+    document.getElementById("time").innerHTML="Current Time is :"+ hours1 +"PM:"+d.getMinutes()+":"+d.getSeconds();
+
+}
+</script>
+
+</body>
+</html>

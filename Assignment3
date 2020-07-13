@@ -1,0 +1,18 @@
+# letsUpgradeAssignment
+<!DOCTYPE html>
+<html>
+    <head>
+       
+    </head>
+
+<body>
+<h2 id = "date"></h2>
+<script>
+    var d = new Date;
+    date = d.getDate();
+    month = d.getMonth();
+    year = d.getFullYear();
+    document.getElementById('date').innerHTML="Expected Output : "+month+"-"+date+"-"+year;
+</script>
+</body>
+</html>

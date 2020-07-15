@@ -1,0 +1,22 @@
+# letsUpgradeAssignment
+//1.Various Methods in Console
+console.log();
+console.warn();
+console.error();
+console.time();
+console.timeEnd();
+
+
+//2.Diff b/w var,let,const
+
+var i =10; //var is globally scoped and it can be reintialized and it is mutable.
+let i=10; //let is  block scoped and it can be renintialized and it is mutable between block scope
+const i=10; //const should be initialized while declaring and it is immutable and block scoped
+
+//3.Data type in javascript
+
+var a = 0.39; //Decimal
+var b = true; //Boolean
+var c = "String"; //String
+var d= ["a","b","c"]; //Array
+var obj = {Name:"Vel" , Std: "12th" , Result:"Pass"};//object

@@ -4,7 +4,7 @@
 
 
 <p id="day"> hahahahah</p>
-<p id="time"></p>
+<p id="time"> hahahahha</p>
 <script>
 var d = new Date();
 var c = d.getDay();

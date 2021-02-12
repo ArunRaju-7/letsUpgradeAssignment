@@ -3,7 +3,7 @@
 <body>
 
 
-<p id="day"></p>
+<p id="day"> hahahahah</p>
 <p id="time"></p>
 <script>
 var d = new Date();
